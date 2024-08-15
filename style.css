@@ -1,1 +1,26 @@
-Nothing
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* body{
+    background-color:black;
+    color:white;
+} */
+.left{
+    width:25vw;
+    padding:10px;
+}
+
+.right{
+    width:75vw;
+}
+.home{
+    padding:10px;
+}
+.home ul li{
+    display: flex;
+    width:14px;
+    list-style: none;
+    gap:15px;
+    padding-top: 14px;
+}
