@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for EveryOne</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
@@ -23,6 +23,22 @@
                 <div class="heading">
                     <img class="invert" src="images/playlist.svg" alt="">
                     <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <li>
+                            <img  class="invert" src="images/music.svg"  alt="">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img class="invert" src="images/play.svg">
+                            </div>
+                            
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer">
                     <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
@@ -53,8 +69,8 @@
                     </svg>
                 </div>
                 <div class="buttons">
-                    <button>Login</button>
-                    <button>Signup</button>
+                    <button class="sign">Sign up</button>
+                    <button class="loginbtn">Log in</button>
                 </div>
             </div>
             <div class="spotifyPlaylist">
@@ -75,11 +91,30 @@
                         <h2>ANIMAL</h2>
                         <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
                     </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="">
+                        <h2>ANIMAL</h2>
+                        <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                     <div class="songbuttons">
+                        <img src="images/previous.svg"  alt="">
+                        <img src="images/play.svg" alt="">
+                        <img src="images/next.svg" alt="">
+                     </div>
+                     <div class="songtime">
+                        
+                     </div>
                 </div>
 
             </div>
+
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
