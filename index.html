@@ -12,8 +12,11 @@
 <body>
     <div class="container flex bg-black">
         <div class="left  ">
+            <div class="close">
+                <img class="invert" src="images/close.svg" alt="">
+            </div>
             <div class="home bg-grey rounded m-1 p-1">
-                <div class="logo"><img class="invert" src="images/logo.svg" alt="logo"></div>
+                <div class="logo"><img width="110" class="invert" src="images/logo.svg" alt="logo"></div>
                 <ul>
                     <li><img class="invert" src="images/home.svg" alt="home">Home</li>
                     <li><img class="invert" src="images/search.svg" alt="search">Search</li>
@@ -26,18 +29,6 @@
                 </div>
                 <div class="songlist">
                     <ul>
-                        <li>
-                            <img  class="invert" src="images/music.svg"  alt="">
-                            <div class="info">
-                                <div>Song Name</div>
-                                <div>Song Artist</div>
-                            </div>
-                            <div class="playnow">
-                                <span>Play Now</span>
-                                <img class="invert" src="images/play.svg">
-                            </div>
-                            
-                        </li>
                     </ul>
                 </div>
                 <div class="footer">
@@ -57,6 +48,8 @@
         <div class="right bg-grey rounded ">
             <div class="header">
                 <div class="nav">
+                    <img width="40" class="invert hamberger" src="images/hamberger.svg">
+
                     <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         color="#000000" fill="none">
                         <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
@@ -76,38 +69,34 @@
             <div class="spotifyPlaylist">
                 <h1>Spotify PlayList</h1>
                 <div class="cardcontainer">
-                    <div class="card">
-                        <div class="play">      
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xlmns="http://www.w3.org/2000/svg">
-                                    <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5" stroke-linejoin="round"/>
-                                </svg>
-                        </div>
-                        <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="">
-                        <h2>ANIMAL</h2>
-                        <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="">
-                        <h2>ANIMAL</h2>
-                        <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="">
-                        <h2>ANIMAL</h2>
-                        <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
-                    </div>
 
                 </div>
+
                 <div class="playbar">
-                    <div class="songinfo"></div>
-                     <div class="songbuttons">
-                        <img src="images/previous.svg"  alt="">
-                        <img src="images/play.svg" alt="">
-                        <img src="images/next.svg" alt="">
-                     </div>
-                     <div class="songtime">
-                        
-                     </div>
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img width="35" id="previous" src="images/previous.svg" alt="">
+                            <img width="35" id="play" src="images/play.svg" alt="">
+                            <img width="35" id="next" src="images/next.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="images/volume.svg">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
